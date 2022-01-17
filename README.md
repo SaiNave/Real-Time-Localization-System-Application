@@ -1,4 +1,4 @@
-## UWB Real-Time-Localization-System UI
+# UWB Real-Time-Localization-System UI
 - This repository contains the details of project Healthcare UWB RTLS UI performance.
 - Healthcare UWB RTLS UI stands for Healthcare Ultra wide Band Real time localization system user interface. 
 - This UI has implement on .NET Framework platform using C# Winform application. 
@@ -11,6 +11,8 @@ RTLS consisting of three main components: Mobile Tags, Fixed Anchors and the Con
 RTLS–UI is the end component of the RTLS system. It’s a visual application which gives the system distinctive “look” and “feel” for the user to manipulates the information in 2D or 3D graphics display. The information processed by the User Interface is mainly based on the object’s position coordinates received from the localization algorithm. 
 
 ### Why this is UWB RTLS UI?
-Because this whole RTLS systems employed UWB (ultra wide band) sensors system for gathering the location information of moving objects or humans to visualize and analyze on user interface panel. Figure1 shows the main setup for UWB RTLS. 
+Because this whole RTLS systems employed UWB (ultra wide band) sensors system for gathering the location information of moving objects or humans to visualize and analyze on user interface panel. Figure1 shows the main setup for UWB RTLS. <br />
 
-<img src align =centre
+## UWB RTLS UI setup
+
+<img align="centre" alt= "Project_setup" height = "550"  width="650" src="project_setup.png"   />
