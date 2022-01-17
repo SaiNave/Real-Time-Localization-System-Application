@@ -10,7 +10,7 @@ RTLS consisting of three main components: Mobile Tags, Fixed Anchors and the Con
 ### What is RTLS UI?
 RTLS–UI is the end component of the RTLS system. It’s a visual application which gives the system distinctive “look” and “feel” for the user to manipulates the information in 2D or 3D graphics display. The information processed by the User Interface is mainly based on the object’s position coordinates received from the localization algorithm. 
 
-### Why this is UWB RTLS UI?
+### Why it's called as UWB RTLS UI?
 Because this whole RTLS systems employed UWB (ultra wide band) sensors system for gathering the location information of moving objects or humans to visualize and analyze on user interface panel. Figure1 shows the main setup for UWB RTLS. <br />
 
 ### Purpose of developing UI:
