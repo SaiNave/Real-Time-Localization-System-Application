@@ -19,6 +19,12 @@ Because this whole RTLS systems employed UWB (ultra wide band) sensors system fo
 ### Purpose of developing UI:
 The purpose of developing this UI is to track and visualize the activites and movements of dementia patients in nursing home.
 The information received by UI through UWB sensor Network deployed at nursing home
+The Tags will be worn by patients of nursing home (Tag can be form or locket or watch)
+
+## Tags Visualization and Zone Tracking 
+For Tags visualization the RTLS setup comprises of two main blocks: 1. Anchor Network, and 2. Main Sever Block. The Anchor Network deployed in the nursing home. However, Main Server Block consisting of Client and UI panel Server.  Basically Client represents the Anchor’s Network and generally this room served as Client for UI panel. The client consisting of the program which receives information of tags from the anchor’s network then after processing the information it then sends to UI panel server. The information sends by client to UI panel consisting of Tag’s ID and its position coordinates (x and y). In case of multiple Tags, the client sequentially sends each tag information to UI Panel server. <br     />
+
+For the zone tracking scenario, two zones have assigned at one side of the any room and labeled as Zone1 and Zone2 of area 3m x 3m. The tracking data in each zone is logged in a text file which is later process in data analysis. 
 
 # UWB RTLS UI setup
-<img align="centre" alt= "Project_setup" height = "550"  width="650" src="project_setup.png"   />
+<img align="centre" alt= "Project_setup" height = "550"  width="650" src="project_setup.png"   /><br />
